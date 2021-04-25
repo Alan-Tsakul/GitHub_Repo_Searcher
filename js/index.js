@@ -22,8 +22,11 @@ class View {
 
   createRepo(repo) {
     const repoElement = this.createElement("li", "search-repo-element");
-    repoElement.addEventListener("click", () => {
+    repoElement.addEventListener("click", (e) => {
       this.showRepoData(repo);
+      if (e.target) {
+        this.repoList.innerHTML = "";
+      }
     });
     repoElement.innerHTML = `<a href="#" class="repo-prev-name">${repo.name}</a>`;
     this.repoList.append(repoElement);

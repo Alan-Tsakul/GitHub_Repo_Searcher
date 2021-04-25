@@ -1,0 +1,126 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+.app {
+   margin: 100px 200px;
+   width: 661px;
+   height: 763px;
+}
+
+.main {
+   background-color: #C4C4C4;
+   width: 100%;
+   height: 100%;
+}
+
+.search-line {
+	flex-direction: column;
+	display: flex;
+   align-items: center;
+	margin: 0 auto;
+   padding-top: 62px;
+}
+.search-input {
+	border: none;
+	line-height: 61px;
+   width: 500px;
+   outline: none;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 48px;
+   line-height: 56px;
+   color: #000000;
+   padding-left: 10px;
+}
+
+.search-repo {
+   list-style: none;
+   background-color: #E3E3E3;
+	line-height: 61px;
+   width: 500px;
+   outline: none;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 30px;
+   line-height: 35px;
+   color: #000000;
+   margin: 0;
+   padding: 0;
+   margin-left: 81px;
+   margin-bottom: 45px;
+}
+
+.search-repo-element {
+   border: 2px solid #000000;
+   padding-left: 10px;
+}
+
+.search-repo-element:hover {
+   background-color: #65CDF9;
+}
+
+.repo-prev-name{
+   text-decoration: none;
+   color: #000000;
+}
+
+.repo-info-list{
+   list-style: none;
+   padding:0;
+   margin: 0;
+   padding-left: 11px;
+   padding-top: 5px;
+}
+
+.repo-info-element{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.repo-info{
+   width: 503px;
+   height: 101px;
+   border: 1px solid #000000;
+   background-color: #E27BEB;
+   margin-left: 80px;
+}
+
+.closebtn {
+    position: relative;
+    cursor: pointer;
+    visibility: hidden;
+}
+.closebtn:before {
+    content: '+';
+    color: #FF0000;
+    position: absolute;
+    transform: rotate(45deg);
+    font-size: 100px;
+    bottom: 1px;
+    left: 420px;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
